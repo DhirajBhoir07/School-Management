@@ -41,3 +41,15 @@ git tag -d <tag name>       // delete tag
 git push origin <tag name>  // push this tag name
 
 
+// Rebase or Reflog
+REBASE :- Git rebase is a powerful Git feature used to change the base of a branch.
+          It effectively allows you to move a branch to a new starting point, 
+        @ DON'T DO IT ON THE MAIN BRANCH ... DO IT ON THE BRANCH THAT YOU WANT TO REBASE.
+
+like we have new branch called feature-b 
+we add somthing in feature-b so now you -b branch is ahead of main branch then
+we add something in the main branch then main branch is ahead now since the main branch ahead of 
+one commit we want it to rebase to have the -b 
+so we checkout feature-b then we use the cmd - git rebase master ...... Head -> feature-b
+
+
