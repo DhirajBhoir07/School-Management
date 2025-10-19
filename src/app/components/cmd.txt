@@ -15,6 +15,11 @@ git add .      // add all files.
 
 git merge <branch name>
 
+git diff  <cammand> // its informative cammand like "log" 
+git diff --staged
+git diff <branch name 1 >  <branch name 1 >
+git diff <commit id 1 >  <commit id 2 >
+
 
 
 
