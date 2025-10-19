@@ -7,3 +7,4 @@ new feature added by new feature branch
 
 add footer note 2025
 
+new feature added to see the rebase properly.
