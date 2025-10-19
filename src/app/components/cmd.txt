@@ -1,0 +1,22 @@
+
+========= Git Cammands =========
+
+git init 
+
+git branch 
+git branch -c <new branch name>  // USED TO CREATE A NEW BRANCH
+git branch -m <old branch name> <new branch name>  // USED TO RENAME THE BRANCH
+git branch -d <branch name>  // USED TO DELETE THE BRANCH
+
+git checkout <branch name>
+git status 
+git add <file-name> <file-name 2>  // add manually files one by one 
+git add .      // add all files.
+
+git merge <branch name>
+
+
+
+
+
+
