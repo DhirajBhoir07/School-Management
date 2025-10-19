@@ -53,3 +53,13 @@ one commit we want it to rebase to have the -b
 so we checkout feature-b then we use the cmd - git rebase master ...... Head -> feature-b
 
 
+---------0----              ---------0----------0      ---------0----------0 
+         \------0                      \------0                            \------0
+
+
+----------0----------0--------0
+
+
+
+
+        
