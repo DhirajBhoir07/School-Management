@@ -10,8 +10,8 @@ git branch -d <branch name>  // USED TO DELETE THE BRANCH
 
 git checkout <branch name>
 git status 
-git add <file-name> <file-name 2>  // add manually files one by one 
-git add .      // add all files.
+git add <file-name> <file-name 2>       // add manually files one by one 
+git add .            // add all files.
 
 git merge <branch name>
 
@@ -21,7 +21,23 @@ git diff <branch name 1 >  <branch name 1 >
 git diff <commit id 1 >  <commit id 2 >
 
 
+git stash           // ITS LIKE TEMPORARY MEMORY , USED WHEN WE WANT TO GO THE ANOTHER BRANCH
+git stash save "<save with massage>"
+git stash list           // CHECKOUT STASH LIST 
+
+git stash apply // RECENT STASH
+git stash apply stash@{0}  // APPLY SPECIFIC STASH
+git stash pop       // You can apply and drop the stash by using the following command:
+git stash drop      // DROP THE STASH
+git stash apply stash@{0} <branch-name>   // YOU CAN APPLY THE STASH TO A SPECIFIC BRANCH BY USING THE FOLLOWING COMMAND:
+git stash clear 
 
 
+// NORMALLY NOT USED BY THE DEVELOPER == USED BY THE PRODUCT MANAGER , mostly at the time of version release in open source
+git tag <tag name>
+git tag
+git tag <tag name> <commit hash>  // attatch tag name with commit hash code
+git tag -d <tag name>       // delete tag
+git push origin <tag name>  // push this tag name
 
 
