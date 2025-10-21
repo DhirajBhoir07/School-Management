@@ -67,6 +67,10 @@ This can be useful for debugging and understanding the history of your project.
 
 git reflog  // gives you the history
 
+Remote URL Setting
+You can check the remote url setting by running the following command:
+git remote -v
 
+git remote add origin https://github.com/DhirajBhoir07/Learning_Practice.git
 
-        
+    
